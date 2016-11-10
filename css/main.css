@@ -358,7 +358,7 @@ h1.navbar-brand {
     display: table-cell;
 }
 
-.caption-content h2 {
+.caption-content h1 {
     color: #fff;
     font-size: 52px;
     font-weight: 400;
@@ -368,7 +368,7 @@ h1.navbar-brand {
 
 .caption-content > span {
     display: block;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 45px;
     text-transform: capitalize;
 }
