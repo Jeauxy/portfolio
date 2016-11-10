@@ -605,6 +605,7 @@ h1.navbar-brand {
 }
 
 .service-item h3 {
+    color: #000;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -1006,6 +1007,7 @@ textarea.form-control {
 }
 
 .contact-details p {
+    font-size: 20px;
     line-height: 30px;
 }
 
