@@ -968,6 +968,11 @@ ul.external li a:hover {
     text-transform: uppercase;
 }
 
+a.link{
+  color: #fff;
+  text-decoration: underline;
+}
+
 .input-field {
     margin-bottom: 10px;
 }
