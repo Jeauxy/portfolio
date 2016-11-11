@@ -650,7 +650,7 @@ figcaption.mask {
     padding: 25px;
     position: absolute;
     width: 100%;
-    text-align: left;
+    text-align: center;
 
     -webkit-transition: all 0.4s ease 0s;
        -moz-transition: all 0.4s ease 0s;
