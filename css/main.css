@@ -737,7 +737,7 @@ ul.external li a:hover {
 
 
 #testimonials {
-    background-image: url(../img/parallax/testimonial.jpg);
+    background-image: url(../img/parallax/hello-world.jpg);
     padding: 0;
     color: #fff;
 }
@@ -918,7 +918,7 @@ ul.external li a:hover {
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    background: url("../img/portfolio/mountains.jpg") repeat scroll 0 0 transparent;
     padding: 100px 0 120px;
 }
 
