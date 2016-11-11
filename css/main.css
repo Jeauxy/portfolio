@@ -798,6 +798,12 @@ ul.external li a:hover {
     text-transform: uppercase;
 }
 
+.testimonial-item > div p {
+  font-size: 25px;
+  text-align: left;
+  line-height: 35px;
+}
+
 #testimonials .owl-controls.clickable {
     margin-top: 20px;
     text-align: center;
