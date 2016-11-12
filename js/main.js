@@ -14,68 +14,65 @@ jQuery(window).load(function(){
 
 $(function() {
 
-    var Page = (function() {
+var Page = (function() {
 
-        var $navArrows = $( '#nav-arrows' ),
-            $nav = $( '#nav-dots > span' ),
-            slitslider = $( '#slider' ).slitslider( {
-                onBeforeChange : function( slide, pos ) {
+var $navArrows = $( '#nav-arrows' ),
+  $nav = $( '#nav-dots > span' ),
+  slitslider = $( '#slider' ).slitslider( {
+    onBeforeChange : function( slide, pos ) {
 
-                    $nav.removeClass( 'nav-dot-current' );
-                    $nav.eq( pos ).addClass( 'nav-dot-current' );
+  }
+});
 
-                }
-            } ),
+init = function() {
 
-            init = function() {
+initEvents();
 
-                initEvents();
+},
+initEvents = function() {
 
-            },
-            initEvents = function() {
+// add navigation events
+$navArrows.children( ':last' ).on( 'click', function() {
 
-                // add navigation events
-                $navArrows.children( ':last' ).on( 'click', function() {
+  slitslider.next();
+  return false;
 
-                    slitslider.next();
-                    return false;
+});
 
-                } );
+  $navArrows.children( ':first' ).on( 'click', function() {
 
-                $navArrows.children( ':first' ).on( 'click', function() {
+      slitslider.previous();
+      return false;
 
-                    slitslider.previous();
-                    return false;
+  } );
 
-                } );
+  $nav.each( function( i ) {
 
-                $nav.each( function( i ) {
+      $( this ).on( 'click', function( event ) {
 
-                    $( this ).on( 'click', function( event ) {
+          var $dot = $( this );
 
-                        var $dot = $( this );
+          if( !slitslider.isActive() ) {
 
-                        if( !slitslider.isActive() ) {
+              $nav.removeClass( 'nav-dot-current' );
+              $dot.addClass( 'nav-dot-current' );
 
-                            $nav.removeClass( 'nav-dot-current' );
-                            $dot.addClass( 'nav-dot-current' );
+          }
 
-                        }
+          slitslider.jump( i + 1 );
+          return false;
 
-                        slitslider.jump( i + 1 );
-                        return false;
+      } );
 
-                    } );
+  } );
 
-                } );
+};
 
-            };
+  return { init : init };
 
-            return { init : init };
+})();
 
-    })();
-
-    Page.init();
+Page.init();
 
 });
 
@@ -127,14 +124,7 @@ $(document).ready(function(){
 
 
 
-	$("#works, #testimonial").owlCarousel({
-		navigation : true,
-		pagination : false,
-		slideSpeed : 700,
-		paginationSpeed : 400,
-		singleItem:true,
-		navigationText: ["<i class='fa fa-angle-left fa-lg'></i>","<i class='fa fa-angle-right fa-lg'></i>"]
-	});
+
 
 
 	/* ========================================================================= */

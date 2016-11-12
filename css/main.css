@@ -603,6 +603,27 @@ ul.external li a:hover {
   border: 2px solid #008ECC;
 }
 
+#pdf {
+  border: 2px solid #000;
+  border-radius: 50%;
+  color: #000;
+  display: block;
+  height: 90px;
+  line-height: 96px;
+  width: 90px;
+
+  -webkit-transition: all 0.2s ease 0s;
+     -moz-transition: all 0.2s ease 0s;
+      -ms-transition: all 0.2s ease 0s;
+       -o-transition: all 0.2s ease 0s;
+          transition: all 0.2s ease 0s;
+}
+
+#pdf:hover {
+  color: #008ECC;
+  border: 2px solid #008ECC;
+}
+
 
 /*=================================================================
 	Contact
