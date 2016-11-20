@@ -2,6 +2,40 @@
 /*	Basic Style
 /* =================================== */
 
+*{
+  font-family: 'Myriad Set Pro';
+}
+
+#FullName{
+font-family: 'Myriad Set Pro';
+font-size: 80px;
+}
+
+#Brand{
+  font-size: 25px;
+}
+
+#paragraphs{
+
+  width: 100%;
+}
+
+#career{
+  font-size: 40px;
+  font-family: 'Myriad Set Pro';
+}
+
+p{
+  font-size: 20px;
+}
+.animatedFadeInDown{
+  font-family: 'Myriad Set Pro';
+}
+
+#nav{
+  font-size: 19px;
+}
+
 body {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -281,7 +315,7 @@ h1.navbar-brand {
 
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -551,7 +585,7 @@ ul.external li a:hover {
 }
 
 .about-item > div p {
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
   line-height: 40px;
 }
