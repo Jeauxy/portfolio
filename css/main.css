@@ -836,15 +836,6 @@ figcaption.mask {
   padding: 15px;
 }
 
-/* lightbox */
-.fancybox-title h3 {
-  font-size: 20px;
-}
-
-.fancybox-title p {
-  font-size: 14px;
-}
-
 /* about */
 .about-item {
   width: 95%;
