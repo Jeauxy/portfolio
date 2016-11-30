@@ -65,10 +65,6 @@ Page.init();
 
 $(document).ready(function(){
 
-	/* ========================================================================= */
-	/*	Menu item highlighting
-	/* ========================================================================= */
-
 	jQuery('#nav').singlePageNav({
 		offset: jQuery('#nav').outerHeight(),
 		filter: ':not(.external)',
@@ -106,15 +102,6 @@ $(document).ready(function(){
     $(window).resize(function(){'use strict',
         $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
     });
-
-
-
-
-
-
-	/* ========================================================================= */
-	/*	Featured Project Lightbox
-	/* ========================================================================= */
 
 });
 
