@@ -2,7 +2,9 @@
 /*	Basic Style
 /* =================================== */
 
-
+#profession{
+  margin-right: 18px;
+}
 body {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
