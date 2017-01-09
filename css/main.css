@@ -516,6 +516,10 @@ ul.external li a:hover {
 	About
 ==================================================================*/
 
+#steve-jobs{
+  text-align: center;
+}
+
 #about {
   background-color: #009EE3;
   background-image: url("../img/DJ.jpeg");
