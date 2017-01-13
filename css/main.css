@@ -412,6 +412,14 @@ Default styles for background colors
 /*=================================================================
   Projects
 ==================================================================*/
+#notes{
+  color: #fff;
+}
+
+#fa-fa-color{
+  color: #fff;
+}
+
 #projects {
   background-color: #009EE3;
   color: #fff;
