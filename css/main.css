@@ -607,6 +607,10 @@ ul.external li a:hover {
   margin: 0 75px;
 }
 
+.social-button li:nth-child(3) {
+  margin-right: 75px;
+}
+
 .social-button li a {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -704,6 +708,7 @@ a.link{
 @media (min-width: 980px) and (max-width: 1150px) {
 
 /* projects */
+
 figcaption.mask {
   bottom: -151px;
 }
@@ -735,7 +740,7 @@ figcaption.mask {
   font-size: 45px;
 }
 
-/* about */
+/* skills */
 
 .skills-item {
   margin-bottom: 50px;
@@ -768,6 +773,7 @@ figcaption.mask {
 }
 
 /* contact form */
+
 .contact-form {
   margin-bottom: 50px;
 }
@@ -808,6 +814,7 @@ body {
 }
 
 /* slider */
+
 .caption-content h2 {
   font-size: 18px;
 }
@@ -826,19 +833,14 @@ body {
   font-size: 22px;
 }
 
-/* about */
-
-#about h3 {
-  font-size: 18px;
-  margin: 0 0 35px !important;
-}
-
 /* skills */
+
 .skills-item {
   width: 100%;
 }
 
 /*projects*/
+
 .projects-item {
   margin: 0 auto 10px;
   font-size: 14px;
@@ -852,6 +854,12 @@ figcaption.mask {
 }
 
 /* about */
+
+#about h3 {
+  font-size: 18px;
+  margin: 0 0 35px !important;
+}
+
 .about-item {
   width: 95%;
 }
@@ -866,11 +874,13 @@ figcaption.mask {
 }
 
 /* resume */
+
 .resume-table {
   margin-bottom: 50px;
 }
 
 /* follow us */
+
 .social-button li:nth-child(2) {
   margin: 0 25px;
 }
@@ -882,6 +892,7 @@ figcaption.mask {
 }
 
 /* contact form */
+
 .contact-form {
   margin-bottom: 50px;
 }
@@ -899,6 +910,7 @@ figcaption.mask {
 }
 
 /* home slider */
+
 .caption-content h2 {
   font-size: 35px;
 }
