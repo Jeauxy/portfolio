@@ -607,10 +607,6 @@ ul.external li a:hover {
   margin: 0 75px;
 }
 
-.social-button li:nth-child(3) {
-  margin-right: 75px;
-}
-
 .social-button li a {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -879,7 +875,7 @@ figcaption.mask {
   margin-bottom: 50px;
 }
 
-/* follow us */
+/* contact */
 
 .social-button li:nth-child(2) {
   margin: 0 25px;
