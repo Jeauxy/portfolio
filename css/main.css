@@ -7,7 +7,7 @@
 }
 body {
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', 'Open Sans', sans-serif;
   line-height: 24px;
   font-size: 16px;
   color: #818181;
@@ -653,6 +653,10 @@ ul.external li a:hover {
 /*=================================================================
 	Contact
 ==================================================================*/
+
+#email{
+  color: #fff;
+}
 
 #contact {
   background-color: #009EE3;
