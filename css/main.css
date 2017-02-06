@@ -654,6 +654,10 @@ ul.external li a:hover {
 	Contact
 ==================================================================*/
 
+#phone-number{
+  color: #fff;
+}
+
 #email{
   color: #fff;
 }
