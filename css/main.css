@@ -660,6 +660,7 @@ ul.external li a:hover {
 
 #email{
   color: #fff;
+  text-decoration: underline;
 }
 
 #contact {
